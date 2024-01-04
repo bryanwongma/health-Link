@@ -1,0 +1,90 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "คำร้องขอเข้าถึงข้อมูลสุขภาพของท่าน",
+        "weight": "bold",
+        "color": "#1DB446",
+        "size": "sm"
+      },
+      {
+        "type": "text",
+        "text": "คุณสมชาย หมายมั่น",
+        "weight": "bold",
+        "size": "xl",
+        "margin": "md",
+        "wrap": true
+      },
+      {
+        "type": "separator",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "เราได้ส่งคำร้องขอเข้าถึงข้อมูลสุขภาพของท่าน เนื่องจากมีการ ร้องขอเข้าถึงข้อมูลจากโรงพยาบาลไกลบ้าน สู่ข้อมูลของท่าน ท่านสามารถให้ความยินยอมผ่านจดหมายฉบับนี้ด้วยการกดปุ่ม “ยินยอมการให้ข้อมูล” ด้านล่างจดหมายฉบับนี้ หรือปุ่ม “ปฏิเสธการให้ข้อมูล” หากไม่ได้เกี่ยวข้องกับท่าน",
+            "wrap": true,
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "ข้าพเจ้าอนุญาตให้ “นายแพทย์ประจักษ์ รักษา” จาก “โรงพยาบาลทดสอบ ทดสอบ” เข้าถึงและใช้ข้อมูลส่วนบุคคลของข้าพเจ้าจากสถานพยาบาลที่ต้องการ “ความยินยอมรายครั้ง” ในระบบ Health Link เพื่อประกอบการรักษาพยาบาลของข้าพเจ้าในวันที่ 4 มกราคม 2567 เวลา 16:35:45 ตามที่ข้าพเจ้ายินยันไว้ ณ ตอนที่ข้าพเจ้าได้เข้าร่วมโครงการฯ ",
+            "margin": "xl",
+            "wrap": true,
+            "color": "#2D6EFF",
+            "size": "xs"
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "xxl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "xxl",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "ยินยอมการให้ข้อมูล",
+              "uri": "http://linecorp.com/"
+            },
+            "style": "primary"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "ปฏิเสธการให้ข้อมูล",
+              "uri": "http://linecorp.com/"
+            },
+            "style": "secondary"
+          }
+        ]
+      }
+    ]
+  },
+  "styles": {
+    "footer": {
+      "separator": true
+    }
+  }
+}
