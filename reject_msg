@@ -1,0 +1,35 @@
+{
+  "type": "bubble",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "ให้ความยินยอมไม่สำเร็จ",
+        "size": "lg",
+        "color": "#9e1109"
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      }
+    ]
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "7 กุมภาพันธ์ 2567 เวลา 12:00",
+        "color": "#099e18"
+      },
+      {
+        "type": "text",
+        "text": "ท่านได้ทำการปฏิเสธความยินยอม // ท่านให้ความยินยอมซ้ำ",
+        "wrap": true
+      }
+    ]
+  }
+}
